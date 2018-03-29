@@ -7,68 +7,25 @@
 * {
   box-sizing: border-box;
 }
-body {
-  background-color: #A81C91;
+body{
+    background-color:#812781;
 }
+
 #regForm {
   background-color: whitesmoke;
   margin: 100px auto;
   font-family: Raleway;
   padding: 40px;
-  width: 75%;
-  min-width: 300px;
+  width: 78%;
+  min-width: 400px;
 }
-h1 {
-  text-align: center;  
+h1{
+    text-align: center;
 }
-input {
-  padding: 10px;
-  width: 100%;
-  font-size: 17px;
-  font-family: Raleway;
-  border: 1px solid #aaaaaa;
+.imagestyle1 { 
+    position: relative; top: -20px; 
 }
-/* Mark input boxes that gets an error on validation: */
-input.invalid {
-  background-color: #ffdddd;
-}
-/* Hide all steps by default: */
-.tab {
-  display: none;
-}
-button {
-  background-color: #000000;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 17px;
-  font-family: Raleway;
-  cursor: pointer;
-}
-button:hover {
-  opacity: 0.8;
-}
-#prevBtn {
-  background-color: #bbbbbb;
-}
-/* Make circles that indicate the steps of the form: */
-.step {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbbbbb;
-  border: none;  
-  border-radius: 50%;
-  display: inline-block;
-  opacity: 0.5;
-}
-.step.active {
-  opacity: 1;
-}
-/* Mark the steps that are finished and valid: */
-.step.finish {
-  background-color: #4CAF50;
-}
+
 </style>
 <body>
 
@@ -87,11 +44,12 @@ button:hover {
   <p style="clear: both;"></p>
   
 
-    <br></br><h1 style="color: black" align="right">Upcoming Events</h1>
+    <br></br><h1 style="color: black; margin-left: 600px;" >Upcoming Events</h1>
     
-    <p style="float: left; clear: right;"><img src="meeting.jpg" width="400" height="385"></p>
-    <iframe style="border: white 4px outset; margin-left: 40px"class="float-right"src="https://calendar.google.com/calendar/b/1/embed?showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=girlsplusplusatgsu%40gmail.com&amp;color=%237A367A&amp;ctz=America%2FNew_York" style="border-width:0" width="450" height="400" frameborder="0" scrolling="no"></iframe>
-    <font face="Lucida Calligraphy"><div>
+    
+    <iframe style="border: white 4px outset; float:right;"src="https://calendar.google.com/calendar/b/1/embed?showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=girlsplusplusatgsu%40gmail.com&amp;color=%237A367A&amp;ctz=America%2FNew_York" style="border-width:0" width="450" height="400" frameborder="0" scrolling="no"></iframe>
+  
+    <div>
             <h2><b  style="color:blueviolet">G</b>- Get Inspired  </h2>	
             <h2><b  style="color:blueviolet">I</b>- Improve Technological Skills</h2>
             <h2><b  style="color:blueviolet">R</b>- Reach your Potential</h2>
@@ -107,9 +65,12 @@ button:hover {
 <p>Outreach Chair: Rose Ceigler</p>
 <p>Webmaster: Tiffani Buck</p>
 
-<a href="http://www.instagram.com/girlsplusplusatgsu" target="_blank"><img src="instagram.jpg" width="50" height="50"></a>
 
-<a href="http://www.facebook.com/groups/526152871102915/?source_id=163993890919444" target="_blank"><img src="facebook.png" width="50" height="50"></a>
+
+<a href="http://www.facebook.com/groups/526152871102915/?source_id=163993890919444" target="_blank"><img class="t-image imagestyle1"src="facebook.png" width="50" height="50"style=" float:right;"></a>
+<a href="http://www.instagram.com/girlsplusplusatgsu" target="_blank"><img class="t-image imagestyle1"src="instagram.jpg" width="50" height="50" style=" float:right;"></a>
+
+
 
     </body>
 </html>
